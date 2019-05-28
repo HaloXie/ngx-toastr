@@ -1,0 +1,13 @@
+<p>
+  toastr works!
+</p>
+<input type="text" name="txt" [(ngModel)]="msgNotification" />
+<input type="button" (click)="showNotification()" value="Click" />
+<hr/>
+
+Title:<input type="text" name="txtTitle" [(ngModel)]="notif.title" />
+<br/>
+Message:<input type="text" name="txtMessage" [(ngModel)]="notif.message" />
+<br/>
+<br/>
+<input type="button" (click)="showCustomNotification()" value="Click" />
